@@ -43,7 +43,26 @@ Unlike basic automation or keyword search, this assistant provides:
 ### 📌 Response Justification
 - Every answer points to a specific section or paragraph
 - No hallucinations—strictly grounded in content
+---
+
+
+## 🛠️ Technologies Used
+
+| Category            | Tool/Library     |
+|---------------------|------------------|
+| Frontend & Backend  | Streamlit        |
+| Text Summarization  | txtai            |
+| PDF Parsing         | PyPDF2           |
+| Language            | Python 3.8+      |
 
 ---
+
+## 📦 Requirements
+
+```txt
+txtai[all]
+streamlit
+PyPDF2
+
 
 
