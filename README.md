@@ -40,17 +40,4 @@ Unlike basic automation or keyword search, this assistant provides:
 
 ---
 
-## 🧱 Architecture
-
-| Layer         | Technology         |
-|--------------|--------------------|
-| **Frontend** | Streamlit / React / Gradio |
-| **Backend**  | Flask / FastAPI / Django |
-| **AI Models**| OpenAI GPT / Gemini / LLaMA / Mistral |
-| **Parsing**  | PyMuPDF / LangChain / PDFplumber / PyPDF2 |
-| **Memory**   | (Optional) LangChain Memory |
-
----
-
-## 📂 Folder Structure
 
