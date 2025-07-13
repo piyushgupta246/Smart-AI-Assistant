@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyBfAEwQ5yonkHCRSrwXUp9tNPAvAan_HRI"; // Replace with your key
+const GEMINI_API_KEY = "Your API"; // Replace with your key
 
 export async function generateResponse(prompt, imageBase64 = null, mimeType = null) {
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${GEMINI_API_KEY}`;
