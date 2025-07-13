@@ -57,12 +57,6 @@ Unlike basic automation or keyword search, this assistant provides:
 
 ---
 
-## 📦 Requirements
-
-```txt
-txtai[all]
-streamlit
-PyPDF2
 
 
 
