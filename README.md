@@ -1,43 +1,12 @@
-# 🧠 GenAI Document-Aware Assistant
+# React + Vite
 
-An intelligent assistant that reads, reasons, and responds based on user-uploaded documents (PDF or TXT). Built for the EZ AI Challenge to demonstrate comprehension, logic, and context-aware AI capabilities.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🎯 Objective
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-This project aims to build an AI-powered assistant capable of understanding and reasoning over uploaded documents such as research papers, legal documents, and technical manuals.
+## Expanding the ESLint configuration
 
-Unlike basic automation or keyword search, this assistant provides:
-- Contextual free-form question answering
-- Logic-based question generation
-- Justified responses with document references
-
----
-
-## 🚀 Features
-
-### 📤 Document Upload
-- Upload `.pdf` or `.txt` files
-- Extract and parse document content
-- Auto-generate a concise summary (≤150 words)
-
-### 💬 Interaction Modes
-
-#### 1. Ask Anything
-- Ask questions based on the document
-- Assistant answers using deep contextual understanding
-- Each answer includes a justification with document reference
-
-#### 2. Challenge Me
-- Generates 3 logic/comprehension-based questions from document
-- Users respond; assistant evaluates and gives feedback
-- Justifications for each evaluation provided
-
-### 📌 Response Justification
-- Every answer points to a specific section or paragraph
-- No hallucinations—strictly grounded in content
-
----
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
